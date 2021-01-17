@@ -35,13 +35,11 @@ def badge_maker(name)
 
 # def batch_badge_creator(names)
 #   badges = []
-#     names.each do |name|
+#     names.collect do |name|
 #       badges << "Hello, my name is #{name}."
 #     end
 #  badges
 
-# names.collect do |name|
-#     badge_maker(name)
 
 # end
 
@@ -58,10 +56,19 @@ def badge_maker(name)
 # rooms
 # end
 
-# def printer(names)
-#     batch_badge_creator(names).each do |badge|
-#         puts badge
-#     end
+# def printer(attendees)
+#    batch_badge_creator(attendees).collect do |name|
+#     puts "#{name}"
+    
+
+      
+#    end
+   
+    
+     
+   
+   
+   
 
 # end
 
